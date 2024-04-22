@@ -23,5 +23,5 @@ Route::get('/comics', function () {
 
     //dd($comics);
 
-    return view('comics', config('comics'));
+    return view('comics', compact('comics'));
 });
