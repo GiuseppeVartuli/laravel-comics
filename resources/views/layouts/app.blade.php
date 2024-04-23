@@ -13,9 +13,11 @@
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+    
     <body class="antialiased">
-        <h1>Comics page</h1>
-        <img src="/img/dc-logo.png" alt="">
-        <img src="/img/footer-bg.jpg" alt="">
+        @include('partials.header')
+        <h1>Fumetto singolo</h1>
+        
+        @include('partials.footer')
     </body>
 </html>

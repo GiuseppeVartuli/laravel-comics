@@ -1,3 +1,13 @@
-body {
-    background-color: lightcoral;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+:root {
+    --dc-light: #ffffff;
+    --dc-dark: #1c1c1c;
+    --dc-primary: #0282f9;
+    --dc-gray: #303030;
+    --dc-lightgray: #686b6f;
 }

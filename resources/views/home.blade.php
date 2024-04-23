@@ -14,6 +14,12 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <h1>Home page</h1>
+        @include('partials.header')
+        <main>
+            <h1>prova</h1>
+            @yield('content')
+        </main>
+        
+        @include('partials.footer')
     </body>
 </html>

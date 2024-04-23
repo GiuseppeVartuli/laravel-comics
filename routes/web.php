@@ -23,5 +23,7 @@ Route::get('/comics', function () {
 
     //dd($comics);
 
-    return view('comics', compact('comics'));
+    return view('layouts.app', compact('comics'));
 });
+
+
